@@ -1,0 +1,380 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox {
+  overflow: hidden;
+}
+.imgbox img {
+  width: 100%;
+}
+
+section {
+  padding: 50px 0;
+}
+
+header {
+  background-color: #212529;
+  padding: 30px 0;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+}
+header .imgbox {
+  width: 180px;
+}
+header nav a {
+  color: #fff;
+  margin-right: 34px;
+  font-size: 20px;
+}
+header nav :hover {
+  color: #ffc800;
+  cursor: pointer;
+}
+header .box {
+  border: 1px solid #333030;
+  padding: 18px;
+  border-radius: 10px;
+}
+header .box h1 {
+  color: #a39e9e;
+  font-size: 22px;
+  margin-right: 15px;
+}
+header .box .icon {
+  font-size: 25px;
+  color: #817d7d;
+}
+@media screen and (max-width: 1024px) {
+  header nav {
+    display: none;
+  }
+  header .box {
+    display: block;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .box {
+    display: none;
+  }
+  header .box h1, header .box .icon {
+    display: none;
+  }
+  header nav {
+    display: block;
+  }
+}
+@media screen and (max-width: 500px) {
+  header .imgbox {
+    width: 160px;
+  }
+  header .box {
+    padding: 6px;
+  }
+  header .box .icon, header .box h1 {
+    font-size: 20px;
+  }
+}
+
+#ourstudio {
+  background-image: url("assets/header-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+  width: 100%;
+}
+#ourstudio .box {
+  height: 67vh;
+}
+#ourstudio .box .textbox h2, #ourstudio .box .textbox h1, #ourstudio .box .textbox h3 {
+  color: #fff;
+}
+#ourstudio .box .textbox h2 {
+  font-weight: 500;
+  font-size: 40px;
+}
+#ourstudio .box .textbox h1 {
+  font-weight: 700;
+  font-size: 60px;
+  margin: 28px 0 55px 0;
+}
+#ourstudio .box .textbox .btn {
+  background-color: #ffd607;
+  font-size: 22px;
+  padding: 15px 35px;
+}
+@media screen and (max-width: 400px) {
+  #ourstudio .box .textbox h2 {
+    font-size: 37px;
+  }
+  #ourstudio .box .textbox h1 {
+    font-size: 45px;
+  }
+  #ourstudio .box .textbox h3 {
+    font-size: 35px;
+  }
+}
+
+#services h1, #services h3 {
+  color: #000000;
+}
+#services h1 {
+  font-weight: 700;
+  font-size: 38px;
+}
+#services h3 {
+  font-size: 20px;
+  color: #8d8989;
+  margin: 24px 0 45px;
+}
+#services h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 30px 0;
+}
+#services h4 {
+  font-size: 20px;
+  color: #777070;
+  line-height: 1.5;
+  margin: 28px 0;
+}
+#services .icon i {
+  font-size: 45px;
+  border-radius: 100px;
+  background-color: #ffc60a;
+  color: #fff;
+  padding: 40px;
+}
+@media screen and (max-width: 1200px) {
+  #services h1 {
+    font-size: 30px;
+  }
+  #services h2 {
+    font-size: 20px;
+  }
+  #services h4 {
+    font-size: 17px;
+  }
+  #services h3 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #services h1 {
+    font-size: 25px;
+  }
+  #services h2 {
+    font-size: 15px;
+  }
+  #services h4 {
+    font-size: 17px;
+  }
+  #services h3 {
+    font-size: 16px;
+  }
+}
+
+#portfolio {
+  background-color: #f1fafb;
+  padding: 95px;
+}
+#portfolio h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#portfolio h4 {
+  font-size: 20px;
+  color: #747171;
+  margin: 23px 0 65px 0;
+}
+#portfolio .textbox {
+  margin: 20px 0;
+}
+#portfolio .textbox h2 {
+  font-weight: 600;
+  font-size: 35px;
+}
+#portfolio .textbox h3 {
+  font-size: 26px;
+  color: #838080;
+  margin: 14px 12px 60px 12px;
+}
+
+#about {
+  padding-top: 105px;
+}
+#about h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#about h4 {
+  font-size: 20px;
+  color: #868383;
+  margin: 22px 0 90px 16px;
+}
+#about .textbox {
+  text-align: right;
+}
+#about .textbox h2, #about .textbox h3 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-right: 20px;
+}
+#about .textbox h6 {
+  font-size: 25px;
+  color: #9c9a9a;
+  margin: 20px 20px 20px 87px;
+  line-height: 1.4;
+}
+#about h5 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  background-color: #fcd00f;
+  border-radius: 150px;
+  padding: 33px 10px;
+  margin: 55px 142px 0 144px;
+}
+#about .imgbox {
+  width: 150px;
+  border-radius: 125px;
+}
+
+#team {
+  background-color: #e1e9e9;
+  padding: 80px;
+}
+#team h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#team h4 {
+  font-size: 18px;
+  color: #888383;
+  margin-top: 15px;
+}
+#team .textbox h2 {
+  font-weight: 700;
+  font-size: 30px;
+}
+#team .textbox h3 {
+  font-size: 20px;
+  color: #999595;
+  margin: 10px 0 13px 0;
+}
+#team .textbox ul {
+  display: flex;
+  justify-content: center;
+}
+#team .textbox ul li {
+  background-color: #080808;
+  color: #fff;
+  border-radius: 39px;
+  width: 43px;
+  height: 40px;
+  margin: 10px;
+  justify-content: center;
+}
+#team .textbox ul li {
+  background-color: #080808;
+  color: #fff;
+  border-radius: 39px;
+  width: 43px;
+  height: 40px;
+  margin: 10pxc;
+}
+#team h5 {
+  color: #858080;
+  font-size: 20px;
+  margin-top: 37px;
+  line-height: 1.2;
+}
+#team .imgbox {
+  margin: 75px;
+  margin-bottom: 30px;
+}
+
+#soft .soft {
+  width: 185px;
+  margin: 78px;
+}
+#soft .google {
+  width: 160px;
+  margin: 67px;
+}
+#soft .facebook {
+  width: 175px;
+  margin: 73px;
+}
+#soft .ibm {
+  width: 124px;
+  margin: 73px;
+}
+
+#contact {
+  background-position: center;
+  background-size: cover;
+  height: 586px;
+  background-color: #242424;
+}
+#contact .textbox h1 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  margin: 20px;
+}
+#contact .textbox h3 {
+  color: #777474;
+  font-size: 15px;
+}
+#contact .add input {
+  border: 3px solid #991b1b;
+  width: 546px;
+  color: #807b7b;
+  font-size: 14px;
+  margin: 0px 0 23px 90px;
+  height: 50px;
+}
+#contact textarea {
+  padding: 17px;
+}
+#contact .imgbox {
+  height: 120px;
+}
+#contact .btn {
+  background-color: #eec305;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 26px;
+  padding: 16px 34px;
+}
+
+#theend h3 {
+  margin-top: 50px;
+}
+#theend ul {
+  display: flex;
+  justify-content: center;
+}
+#theend ul li {
+  background-color: #080808;
+  color: #fff;
+  border-radius: 39px;
+  width: 40px;
+  height: 42px;
+  margin: 37px 10px;
+}
+#theend ul li .icon {
+  margin: 13px;
+}
+#theend h4 {
+  margin: 45px 0 0 135px;
+}
+#theend h5 {
+  display: flex;
+  justify-content: flex-end;
+  margin: -15px 65px 0 0;
+}/*# sourceMappingURL=style.css.map */
