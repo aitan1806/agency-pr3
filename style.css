@@ -205,7 +205,6 @@ header .box .icon {
 }
 #portfolio .imgbox {
   position: relative;
-  z-index: 1;
 }
 #portfolio .icon {
   color: #fff;
@@ -221,23 +220,18 @@ header .box .icon {
   top: 0;
 }
 #portfolio .icon:hover {
-  opacity: 1;
+  opacity: 0.9;
   cursor: pointer;
 }
 @media screen and (max-width: 768px) {
   #portfolio h1 {
-    font-size: 25px;
-  }
-}
-@media screen and (max-width: 568px) {
-  #portfolio h1 {
-    font-size: 20px;
+    font-size: 30px;
   }
   #portfolio .textbox h2 {
-    font-size: 26px;
+    font-size: 25px;
   }
-  #portfolio h3 {
-    font-size: 22px;
+  #portfolio .textbox h3 {
+    font-size: 20px;
   }
 }
 
