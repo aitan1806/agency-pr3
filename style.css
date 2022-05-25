@@ -209,6 +209,7 @@ header .box .icon {
 }
 #portfolio .icon {
   color: #fff;
+  background-color: #f0ba27;
   font-size: 60px;
   display: flex;
   justify-content: center;
@@ -225,12 +226,12 @@ header .box .icon {
 }
 @media screen and (max-width: 768px) {
   #portfolio h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 568px) {
   #portfolio h1 {
-    font-size: 35px;
+    font-size: 20px;
   }
   #portfolio .textbox h2 {
     font-size: 26px;
