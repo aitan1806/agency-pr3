@@ -17,5 +17,34 @@
             font-size: 26px
             color: #838080
             margin: 14px 12px 60px 12px
+    .imgbox
+        position: relative
+        z-index: 1
+    .icon
+        color: #fff
+        font-size: 60px
+        display: flex
+        justify-content: center
+        align-items: center
+        position: absolute
+        width: 100%
+        height: 100%
+        opacity: 0
+        top: 0
+        &:hover
+            opacity: 1
+            cursor: pointer
+    @media screen and ( max-width: 768px )
+        h1
+            font-size: 25px
+    @media screen and ( max-width: 568px )
+        h1
+            font-size: 20px
+        .textbox
+            h2
+                font-size: 26px
+        h3
+            font-size: 22px
 
-    
+    // h2
+        //margin-top: 25px

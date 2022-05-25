@@ -83,7 +83,6 @@ header .box .icon {
   background-position: center;
   background-size: cover;
   padding: 100px 0;
-  width: 100%;
 }
 #ourstudio .box {
   height: 67vh;
@@ -104,6 +103,9 @@ header .box .icon {
   background-color: #ffd607;
   font-size: 22px;
   padding: 15px 35px;
+}
+#ourstudio .box .textbox .btn:hover h3 {
+  cursor: pointer;
 }
 @media screen and (max-width: 400px) {
   #ourstudio .box .textbox h2 {
@@ -201,45 +203,41 @@ header .box .icon {
   color: #838080;
   margin: 14px 12px 60px 12px;
 }
-
-#about {
-  padding-top: 105px;
+#portfolio .imgbox {
+  position: relative;
+  z-index: 1;
 }
-#about h1 {
-  font-weight: 700;
-  font-size: 40px;
-}
-#about h4 {
-  font-size: 20px;
-  color: #868383;
-  margin: 22px 0 90px 16px;
-}
-#about .textbox {
-  text-align: right;
-}
-#about .textbox h2, #about .textbox h3 {
-  font-weight: 700;
-  font-size: 30px;
-  margin-right: 20px;
-}
-#about .textbox h6 {
-  font-size: 25px;
-  color: #9c9a9a;
-  margin: 20px 20px 20px 87px;
-  line-height: 1.4;
-}
-#about h5 {
-  font-weight: 700;
-  font-size: 30px;
+#portfolio .icon {
   color: #fff;
-  background-color: #fcd00f;
-  border-radius: 150px;
-  padding: 33px 10px;
-  margin: 55px 142px 0 144px;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  top: 0;
 }
-#about .imgbox {
-  width: 150px;
-  border-radius: 125px;
+#portfolio .icon:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  #portfolio h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 568px) {
+  #portfolio h1 {
+    font-size: 35px;
+  }
+  #portfolio .textbox h2 {
+    font-size: 26px;
+  }
+  #portfolio h3 {
+    font-size: 22px;
+  }
 }
 
 #team {
@@ -283,7 +281,7 @@ header .box .icon {
   border-radius: 39px;
   width: 43px;
   height: 40px;
-  margin: 10pxc;
+  margin: 10px;
 }
 #team h5 {
   color: #858080;
@@ -331,14 +329,10 @@ header .box .icon {
 }
 #contact .add input {
   border: 3px solid #991b1b;
-  width: 546px;
   color: #807b7b;
   font-size: 14px;
   margin: 0px 0 23px 90px;
   height: 50px;
-}
-#contact textarea {
-  padding: 17px;
 }
 #contact .imgbox {
   height: 120px;
@@ -350,31 +344,4 @@ header .box .icon {
   font-size: 17px;
   margin-top: 26px;
   padding: 16px 34px;
-}
-
-#theend h3 {
-  margin-top: 50px;
-}
-#theend ul {
-  display: flex;
-  justify-content: center;
-}
-#theend ul li {
-  background-color: #080808;
-  color: #fff;
-  border-radius: 39px;
-  width: 40px;
-  height: 42px;
-  margin: 37px 10px;
-}
-#theend ul li .icon {
-  margin: 13px;
-}
-#theend h4 {
-  margin: 45px 0 0 135px;
-}
-#theend h5 {
-  display: flex;
-  justify-content: flex-end;
-  margin: -15px 65px 0 0;
 }/*# sourceMappingURL=style.css.map */
