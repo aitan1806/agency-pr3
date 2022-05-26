@@ -264,29 +264,39 @@ header .box .icon {
 #team .textbox ul li {
   background-color: #080808;
   color: #fff;
-  border-radius: 39px;
-  width: 43px;
-  height: 40px;
+  border-radius: 72px;
+  width: 36px;
+  height: 36px;
   margin: 10px;
-  justify-content: center;
+  padding: 9px 21px 0 10px;
 }
-#team .textbox ul li {
-  background-color: #080808;
-  color: #fff;
-  border-radius: 39px;
-  width: 43px;
-  height: 40px;
-  margin: 10px;
+#team .textbox li:hover, #team .textbox i:hover {
+  cursor: pointer;
 }
 #team h5 {
   color: #858080;
   font-size: 20px;
-  margin-top: 37px;
+  margin: 10vh 30vh 7vh 25vh;
   line-height: 1.2;
 }
 #team .imgbox {
   margin: 75px;
   margin-bottom: 30px;
+  border-radius: 245px;
+}
+@media screen and (max-width: 500px) {
+  #team h1 {
+    font-size: 30px;
+  }
+  #team h4 {
+    font-size: 13px;
+  }
+  #team .textbox h2 {
+    font-size: 25px;
+  }
+  #team .textbox h3 {
+    font-size: 15px;
+  }
 }
 
 #soft .soft {
