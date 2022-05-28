@@ -319,6 +319,7 @@ header .box .icon {
 #contact {
   background-image: url(assets/map-image.png);
   background-color: #242424;
+  @medi;
 }
 #contact h1 {
   font-weight: 700;
@@ -342,10 +343,10 @@ header .box .icon {
 #contact textarea {
   padding: 17px;
   font-weight: 700;
-  color: #bdbdbd;
   border-radius: 6px;
   height: 221px;
   width: 525px;
+  color: #bbb8b8;
 }
 #contact .btn {
   background-color: #eec305;
