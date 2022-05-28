@@ -317,30 +317,35 @@ header .box .icon {
 }
 
 #contact {
-  background-position: center;
-  background-size: cover;
-  height: 586px;
+  background-image: url(assets/map-image.png);
   background-color: #242424;
 }
-#contact .textbox h1 {
+#contact h1 {
   font-weight: 700;
   font-size: 30px;
   color: #fff;
-  margin: 20px;
 }
-#contact .textbox h3 {
+#contact h3 {
   color: #777474;
   font-size: 15px;
+  margin: 20px 0 50px;
 }
 #contact .add input {
-  border: 3px solid #991b1b;
-  color: #807b7b;
+  border: 2px solid #b5b5b5;
+  color: #bdbdbd;
   font-size: 14px;
-  margin: 0px 0 23px 90px;
-  height: 50px;
+  font-weight: 600;
+  margin: 0 0 19px 115px;
+  height: 61px;
+  width: 517px;
 }
-#contact .imgbox {
-  height: 120px;
+#contact textarea {
+  padding: 17px;
+  font-weight: 700;
+  color: #bdbdbd;
+  border-radius: 6px;
+  height: 221px;
+  width: 525px;
 }
 #contact .btn {
   background-color: #eec305;
@@ -349,4 +354,5 @@ header .box .icon {
   font-size: 17px;
   margin-top: 26px;
   padding: 16px 34px;
+  opacity: 0.6;
 }/*# sourceMappingURL=style.css.map */
