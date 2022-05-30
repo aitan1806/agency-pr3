@@ -299,27 +299,16 @@ header .box .icon {
   }
 }
 
-#soft .soft {
-  width: 185px;
-  margin: 78px;
+#soft .imgbox {
+  width: 50px;
 }
-#soft .google {
-  width: 160px;
-  margin: 67px;
-}
-#soft .facebook {
-  width: 175px;
-  margin: 73px;
-}
-#soft .ibm {
-  width: 124px;
-  margin: 73px;
+#soft .imgbox img:hover {
+  cursor: pointer;
 }
 
 #contact {
   background-image: url(assets/map-image.png);
   background-color: #242424;
-  @medi;
 }
 #contact h1 {
   font-weight: 700;
@@ -327,26 +316,21 @@ header .box .icon {
   color: #fff;
 }
 #contact h3 {
-  color: #777474;
   font-size: 15px;
-  margin: 20px 0 50px;
+  margin: 20px 0 60px;
 }
-#contact .add input {
-  border: 2px solid #b5b5b5;
+#contact input {
   color: #bdbdbd;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
-  margin: 0 0 19px 115px;
-  height: 61px;
-  width: 517px;
+  padding: 16px 79px 17px 17px;
+  margin: 0 0 19px 130px;
+  width: 467px;
 }
 #contact textarea {
   padding: 17px;
   font-weight: 700;
   border-radius: 6px;
-  height: 221px;
-  width: 525px;
-  color: #bbb8b8;
 }
 #contact .btn {
   background-color: #eec305;
@@ -356,4 +340,31 @@ header .box .icon {
   margin-top: 26px;
   padding: 16px 34px;
   opacity: 0.6;
+}
+
+#theend h3 {
+  margin-top: 50px;
+}
+#theend ul {
+  display: flex;
+  justify-content: center;
+}
+#theend ul li {
+  background-color: #080808;
+  color: #fff;
+  border-radius: 39px;
+  width: 40px;
+  height: 42px;
+  margin: 37px 10px;
+}
+#theend ul li .icon {
+  margin: 13px;
+}
+#theend h4 {
+  margin: 45px 0 0 135px;
+}
+#theend h5 {
+  display: flex;
+  justify-content: flex-end;
+  margin: -15px 65px 0 0;
 }/*# sourceMappingURL=style.css.map */
