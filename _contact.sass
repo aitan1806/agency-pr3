@@ -1,6 +1,8 @@
 #contact
     background-image: url(assets/map-image.png)
     background-color: #242424
+    background-position: center
+    background-size: cover
     h1
         font-weight: 700
         font-size: 30px
@@ -8,22 +10,48 @@
     h3
         font-size: 15px
         margin: 20px 0 60px
-    input
-        color: #bdbdbd
-        font-size: 12px
-        font-weight: 600
-        padding: 16px 79px 17px 17px
-        margin: 0 0 19px 130px
-        width: 467px
+        color: #a3a2a2
+    .add
+        input
+            font-size: 12px
+            font-weight: 600
+            padding: 16px 79px 17px 17px
+            margin: 0 0 18px 145px
+            width: 77%
     textarea
-        padding: 17px
+        padding: 16px
         font-weight: 700
-        border-radius: 6px
+        border: 2px solid #b4b4b4
     .btn
         background-color: #eec305
         color: #fff
         font-weight: 700
         font-size: 17px
         margin-top: 26px
-        padding: 16px 34px
+        padding: 16px 40px
         opacity: 0.6
+
+    @media screen and ( max-width: 1400px )
+        .add
+            input
+                width: 73%
+    @media screen and ( max-width: 1200px )
+        .add
+            input
+                width: 68%
+        textarea
+            width: 100%
+    @media screen and ( max-width: 992px )
+        .add
+            input
+                width: 95%
+                margin-left: 19px
+        textarea
+            width: 105%
+    @media screen and ( max-width: 768px )
+        .add
+            input
+                margin-left: 30px
+        textarea
+            width: 95%
+            margin-left: 30px

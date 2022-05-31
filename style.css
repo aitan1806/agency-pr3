@@ -309,6 +309,8 @@ header .box .icon {
 #contact {
   background-image: url(assets/map-image.png);
   background-color: #242424;
+  background-position: center;
+  background-size: cover;
 }
 #contact h1 {
   font-weight: 700;
@@ -318,19 +320,19 @@ header .box .icon {
 #contact h3 {
   font-size: 15px;
   margin: 20px 0 60px;
+  color: #a3a2a2;
 }
-#contact input {
-  color: #bdbdbd;
+#contact .add input {
   font-size: 12px;
   font-weight: 600;
   padding: 16px 79px 17px 17px;
-  margin: 0 0 19px 130px;
-  width: 467px;
+  margin: 0 0 18px 145px;
+  width: 77%;
 }
 #contact textarea {
-  padding: 17px;
+  padding: 16px;
   font-weight: 700;
-  border-radius: 6px;
+  border: 2px solid #b4b4b4;
 }
 #contact .btn {
   background-color: #eec305;
@@ -338,8 +340,39 @@ header .box .icon {
   font-weight: 700;
   font-size: 17px;
   margin-top: 26px;
-  padding: 16px 34px;
+  padding: 16px 40px;
   opacity: 0.6;
+}
+@media screen and (max-width: 1400px) {
+  #contact .add input {
+    width: 73%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #contact .add input {
+    width: 68%;
+  }
+  #contact textarea {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  #contact .add input {
+    width: 95%;
+    margin-left: 19px;
+  }
+  #contact textarea {
+    width: 105%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #contact .add input {
+    margin-left: 30px;
+  }
+  #contact textarea {
+    width: 95%;
+    margin-left: 30px;
+  }
 }
 
 #theend h3 {
