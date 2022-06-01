@@ -180,7 +180,7 @@ header .box .icon {
 
 #portfolio {
   background-color: #f1fafb;
-  padding: 95px;
+  padding: 95px 0;
 }
 #portfolio h1 {
   font-weight: 700;
@@ -191,22 +191,10 @@ header .box .icon {
   color: #747171;
   margin: 23px 0 65px 0;
 }
-#portfolio .textbox {
-  margin: 20px 0;
-}
-#portfolio .textbox h2 {
-  font-weight: 600;
-  font-size: 35px;
-}
-#portfolio .textbox h3 {
-  font-size: 26px;
-  color: #838080;
-  margin: 14px 12px 60px 12px;
-}
 #portfolio .imgbox {
   position: relative;
 }
-#portfolio .overlay {
+#portfolio .imgbox .overlay {
   color: #fff;
   background-color: #f0ba27;
   font-size: 50px;
@@ -220,9 +208,22 @@ header .box .icon {
   opacity: 0;
   top: 0;
 }
-#portfolio .overlay:hover {
+#portfolio .imgbox:hover {
   opacity: 0.9;
   cursor: pointer;
+}
+#portfolio .textbox {
+  text-align: center;
+  margin: 20px 0;
+}
+#portfolio .textbox h2 {
+  font-weight: 600;
+  font-size: 35px;
+}
+#portfolio .textbox h3 {
+  font-size: 26px;
+  color: #838080;
+  margin: 14px 12px 60px 12px;
 }
 @media screen and (max-width: 768px) {
   #portfolio h1 {
