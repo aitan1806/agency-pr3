@@ -206,20 +206,21 @@ header .box .icon {
 #portfolio .imgbox {
   position: relative;
 }
-#portfolio .icon {
+#portfolio .overlay {
   color: #fff;
   background-color: #f0ba27;
-  font-size: 60px;
+  font-size: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
+  transition: 1s;
   width: 100%;
   height: 100%;
   opacity: 0;
   top: 0;
 }
-#portfolio .icon:hover {
+#portfolio .overlay:hover {
   opacity: 0.9;
   cursor: pointer;
 }
