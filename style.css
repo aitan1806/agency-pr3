@@ -11,7 +11,7 @@ body {
 }
 
 section {
-  padding: 50px 0;
+  padding: 60px 0;
 }
 
 header {
@@ -234,6 +234,101 @@ header .box .icon {
   }
   #portfolio .textbox h3 {
     font-size: 20px;
+  }
+}
+
+#about h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+#about h3 {
+  color: #7b838a;
+  font-size: 28px;
+  margin: 20px 0 60px;
+}
+#about .textbox {
+  width: 41%;
+}
+#about .textbox h2 {
+  font-weight: 700;
+  font-size: 29px;
+  margin: 12px 0;
+}
+#about .textbox h4 {
+  font-size: 26px;
+  color: #72777c;
+  line-height: 1.6;
+}
+#about .txtright {
+  text-align: right;
+  margin-right: 50px;
+}
+#about .txtleft {
+  margin-left: 50px;
+}
+#about .imgbox {
+  border-radius: 50%;
+  border: 6px solid #e1e5e9;
+  width: 190px;
+  margin: 0 -4px;
+}
+#about .btnbox {
+  display: flex;
+  justify-content: center;
+}
+#about .btnbox .btn {
+  border-radius: 50%;
+  border: 7px solid #e9ecef;
+  background-color: #ffc800;
+  padding: 16px 31px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  width: 161px;
+  height: 153px;
+}
+@media screen and (min-width: 768px) {
+  #about .imgbox {
+    margin: 0 -40px;
+  }
+  #about .txtright {
+    padding-right: 56px;
+  }
+  #about .txtleft {
+    padding-left: 56px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #about .imgbox {
+    margin: 0 -33px;
+  }
+  #about .txtright {
+    padding-right: 54px;
+  }
+  #about .txtleft {
+    padding-left: 54px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #about .imgbox {
+    margin: 0 -23px;
+  }
+  #about .txtright {
+    padding-right: 50px;
+  }
+  #about .txtleft {
+    padding-left: 50px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #about .imgbox {
+    margin: 0 -8px;
+  }
+  #about .txtright {
+    padding-right: 40px;
+  }
+  #about .txtleft {
+    padding-left: 40px;
   }
 }
 
