@@ -287,50 +287,6 @@ header .box .icon {
   width: 161px;
   height: 153px;
 }
-@media screen and (min-width: 768px) {
-  #about .imgbox {
-    margin: 0 -40px;
-  }
-  #about .txtright {
-    padding-right: 56px;
-  }
-  #about .txtleft {
-    padding-left: 56px;
-  }
-}
-@media screen and (min-width: 992px) {
-  #about .imgbox {
-    margin: 0 -33px;
-  }
-  #about .txtright {
-    padding-right: 54px;
-  }
-  #about .txtleft {
-    padding-left: 54px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  #about .imgbox {
-    margin: 0 -23px;
-  }
-  #about .txtright {
-    padding-right: 50px;
-  }
-  #about .txtleft {
-    padding-left: 50px;
-  }
-}
-@media screen and (min-width: 1400px) {
-  #about .imgbox {
-    margin: 0 -8px;
-  }
-  #about .txtright {
-    padding-right: 40px;
-  }
-  #about .txtleft {
-    padding-left: 40px;
-  }
-}
 
 #team {
   background-color: #e1e9e9;
