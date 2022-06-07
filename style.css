@@ -58,6 +58,7 @@ header .box .icon {
 @media screen and (min-width: 1024px) {
   header .box {
     display: none;
+    position: absolute;
   }
   header .box h1, header .box .icon {
     display: none;
@@ -191,6 +192,19 @@ header .box .icon {
   color: #747171;
   margin: 23px 0 65px 0;
 }
+#portfolio .textbox {
+  text-align: center;
+  margin: 20px 0;
+}
+#portfolio .textbox h2 {
+  font-weight: 600;
+  font-size: 35px;
+}
+#portfolio .textbox h3 {
+  font-size: 26px;
+  color: #838080;
+  margin: 14px 12px 60px 12px;
+}
 #portfolio .imgbox {
   position: relative;
 }
@@ -208,22 +222,9 @@ header .box .icon {
   opacity: 0;
   top: 0;
 }
-#portfolio .imgbox:hover {
+#portfolio .imgbox .overlay:hover {
   opacity: 0.9;
   cursor: pointer;
-}
-#portfolio .textbox {
-  text-align: center;
-  margin: 20px 0;
-}
-#portfolio .textbox h2 {
-  font-weight: 600;
-  font-size: 35px;
-}
-#portfolio .textbox h3 {
-  font-size: 26px;
-  color: #838080;
-  margin: 14px 12px 60px 12px;
 }
 @media screen and (max-width: 768px) {
   #portfolio h1 {
@@ -426,31 +427,4 @@ header .box .icon {
     width: 95%;
     margin-left: 30px;
   }
-}
-
-#theend h3 {
-  margin-top: 50px;
-}
-#theend ul {
-  display: flex;
-  justify-content: center;
-}
-#theend ul li {
-  background-color: #080808;
-  color: #fff;
-  border-radius: 39px;
-  width: 40px;
-  height: 42px;
-  margin: 37px 10px;
-}
-#theend ul li .icon {
-  margin: 13px;
-}
-#theend h4 {
-  margin: 45px 0 0 135px;
-}
-#theend h5 {
-  display: flex;
-  justify-content: flex-end;
-  margin: -15px 65px 0 0;
 }/*# sourceMappingURL=style.css.map */
