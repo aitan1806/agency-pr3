@@ -353,11 +353,17 @@ header .box .icon {
   }
 }
 
-#soft .imgbox {
-  width: 50px;
+#company .microsoft {
+  width: 230px;
 }
-#soft .imgbox img:hover {
-  cursor: pointer;
+#company .google {
+  width: 200px;
+}
+#company .facebook {
+  width: 200px;
+}
+#company .ibm {
+  width: 200px;
 }
 
 #contact {
@@ -427,4 +433,33 @@ header .box .icon {
     width: 95%;
     margin-left: 30px;
   }
+}
+
+footer h1 {
+  font-size: 30px;
+  margin: 20px 0 10px 10px;
+}
+footer h2, footer h3 {
+  display: inline-block;
+  margin: 5px 0 20px 10px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+footer ul li {
+  margin: 10px;
+}
+footer ul li .icon {
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  padding: 13px;
+  width: 41px;
+  height: 42px;
+  cursor: pointer;
+  font-size: 18px;
+}
+footer ul li .icon i {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
