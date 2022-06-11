@@ -238,6 +238,9 @@ header .box .icon {
   }
 }
 
+#about {
+  padding: 80px 0;
+}
 #about h1 {
   font-size: 35px;
   font-weight: 700;
@@ -245,7 +248,7 @@ header .box .icon {
 #about h3 {
   color: #7b838a;
   font-size: 28px;
-  margin: 20px 0 60px;
+  margin: 20px 0 35px;
 }
 #about .textbox {
   width: 41%;
@@ -256,7 +259,7 @@ header .box .icon {
   margin: 12px 0;
 }
 #about .textbox h4 {
-  font-size: 26px;
+  font-size: 30px;
   color: #72777c;
   line-height: 1.6;
 }
@@ -271,7 +274,7 @@ header .box .icon {
   border-radius: 50%;
   border: 6px solid #e1e5e9;
   width: 190px;
-  margin: 0 -4px;
+  margin: 35px -4px;
 }
 #about .btnbox {
   display: flex;
