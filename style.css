@@ -354,16 +354,24 @@ header .box .icon {
 }
 
 #company .microsoft {
-  width: 230px;
+  width: 200px;
 }
 #company .google {
-  width: 200px;
+  width: 130px;
 }
 #company .facebook {
-  width: 200px;
+  width: 170px;
 }
 #company .ibm {
-  width: 200px;
+  width: 120px;
+}
+#company .imgbox img:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  #company .imgbox {
+    margin: 20px;
+  }
 }
 
 #contact {
