@@ -291,65 +291,79 @@ header .box .icon {
 
 #team {
   background-color: #e1e9e9;
-  padding: 80px;
 }
 #team h1 {
+  font-size: 45px;
   font-weight: 700;
-  font-size: 40px;
 }
-#team h4 {
-  font-size: 18px;
-  color: #888383;
-  margin-top: 15px;
+#team h3 {
+  font-size: 20px;
+  margin: 20px 0 60px;
+}
+#team .imgbox {
+  border-radius: 50%;
+  border: 16px solid rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+#team .textbox {
+  text-align: center;
 }
 #team .textbox h2 {
+  font-size: 48px;
   font-weight: 700;
-  font-size: 30px;
+  margin-top: 20px;
 }
-#team .textbox h3 {
-  font-size: 20px;
-  color: #999595;
-  margin: 10px 0 13px 0;
+#team .textbox h4 {
+  margin: 15px 0;
 }
-#team .textbox ul {
+#team h3, #team h4, #team h5 {
+  font-size: 28px;
+  color: #6c757d;
+}
+#team ul {
+  margin-bottom: 40px;
   display: flex;
   justify-content: center;
 }
-#team .textbox ul li {
-  background-color: #080808;
+#team ul li {
+  margin: 20px 10px;
   color: #fff;
-  border-radius: 72px;
-  width: 36px;
-  height: 36px;
-  margin: 10px;
-  padding: 9px 21px 0 10px;
+  border-radius: 50%;
+  background-color: #212529;
+  padding: 18px 21px;
 }
-#team .textbox li:hover, #team .textbox i:hover {
+#team li:hover, #team i:hover {
   cursor: pointer;
 }
 #team h5 {
-  color: #858080;
-  font-size: 20px;
-  margin: 10vh 30vh 7vh 25vh;
-  line-height: 1.2;
+  margin: 20px 70px;
 }
-#team .imgbox {
-  margin: 75px;
-  margin-bottom: 30px;
-  border-radius: 245px;
-}
-@media screen and (max-width: 500px) {
-  #team h1 {
-    font-size: 30px;
+@media screen and (max-width: 576px) {
+  #team h3, #team h4, #team h5 {
+    font-size: 24px;
   }
-  #team h4 {
-    font-size: 13px;
+  #team h1 {
+    font-size: 36px;
   }
   #team .textbox h2 {
-    font-size: 25px;
+    font-size: 32px;
   }
-  #team .textbox h3 {
-    font-size: 15px;
+  #team .imgbox {
+    width: 270px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #team h3, #team h4, #team h5 {
+    font-size: 26px;
+  }
+  #team h1 {
+    font-size: 45px;
+  }
+  #team .textbox h2 {
+    font-size: 38px;
+  }
+  #team .imgbox {
+    width: 300px;
   }
 }
 
