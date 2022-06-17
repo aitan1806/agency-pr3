@@ -293,67 +293,69 @@ header .box .icon {
   background-color: #e1e9e9;
 }
 #team h1 {
-  font-size: 45px;
+  font-size: 58px;
   font-weight: 700;
 }
 #team h3 {
+  color: #888383;
   font-size: 20px;
-  margin: 20px 0 60px;
+  margin: 22px 0 58px;
 }
 #team .imgbox {
   border-radius: 50%;
-  border: 16px solid rgba(0, 0, 0, 0.1);
-  width: 350px;
+  border: 10px solid #cecece;
+  width: 330px;
 }
 #team .textbox {
   text-align: center;
 }
 #team .textbox h2 {
-  font-size: 48px;
+  font-size: 46px;
   font-weight: 700;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 #team .textbox h4 {
-  margin: 15px 0;
+  margin: 19px 0;
 }
-#team h3, #team h4, #team h5 {
-  font-size: 28px;
-  color: #6c757d;
+#team h4, #team h5 {
+  color: #787e83;
+  font-size: 30px;
 }
 #team ul {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
 #team ul li {
-  margin: 20px 10px;
   color: #fff;
-  border-radius: 50%;
-  background-color: #212529;
-  padding: 18px 21px;
+  background-color: #262a2e;
+  border-radius: 52%;
+  background-color: rgba(2, 2, 2, 0.8980392157);
+  margin: 26px 13px;
+  padding: 16px 19px;
 }
 #team li:hover, #team i:hover {
   cursor: pointer;
 }
 #team h5 {
-  margin: 20px 70px;
+  margin: 15px 72px;
 }
 @media screen and (max-width: 576px) {
   #team h3, #team h4, #team h5 {
-    font-size: 24px;
+    font-size: 26px;
   }
   #team h1 {
-    font-size: 36px;
+    font-size: 39px;
   }
   #team .textbox h2 {
     font-size: 32px;
   }
   #team .imgbox {
-    width: 270px;
+    width: 250px;
   }
 }
 @media screen and (min-width: 992px) {
-  #team h3, #team h4, #team h5 {
+  #team h4, #team h5 {
     font-size: 26px;
   }
   #team h1 {
@@ -363,7 +365,7 @@ header .box .icon {
     font-size: 38px;
   }
   #team .imgbox {
-    width: 300px;
+    width: 290px;
   }
 }
 
