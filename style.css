@@ -238,55 +238,161 @@ header .box .icon {
   }
 }
 
-#about .txt h1 {
-  font-size: 35px;
+#about {
+  padding: 100px 0;
+}
+#about h1 {
+  font-size: 50px;
   font-weight: 700;
 }
-#about .txt h3 {
-  color: #7b838a;
+#about h3 {
+  color: #6c757d;
   font-size: 28px;
-  margin: 20px 0 35px;
+  margin: 20px 0 30px;
+}
+#about .imgbox {
+  border: 7px solid #e9ecef;
+  border-radius: 50%;
+  width: 195px;
+  margin: 0 -5px;
 }
 #about .textbox {
-  width: 41%;
+  width: 43%;
 }
 #about .textbox h2 {
   font-weight: 700;
-  font-size: 29px;
-  margin: 12px 0;
+  font-size: 30px;
+  margin: 10px 0;
 }
 #about .textbox h4 {
-  font-size: 30px;
-  color: #72777c;
+  font-size: 26px;
   line-height: 1.6;
+  color: #6c757d;
 }
 #about .txtright {
   text-align: right;
-  margin-right: 50px;
+  padding-right: 40px;
 }
 #about .txtleft {
-  margin-left: 50px;
+  padding-left: 40px;
 }
-#about .imgbox {
-  border-radius: 50%;
-  border: 6px solid #e1e5e9;
-  width: 190px;
-  margin: 35px -4px;
-}
-#about .btnbox {
+#about .yellowbox {
   display: flex;
   justify-content: center;
 }
-#about .btnbox .btn {
-  border-radius: 50%;
+#about .yellowbox .txt {
   border: 7px solid #e9ecef;
-  background-color: #ffc800;
-  padding: 16px 31px;
+  border-radius: 50%;
+  padding: 49px 55px;
   color: #fff;
-  font-size: 25px;
+  background-color: #ffc800;
+  font-size: 24px;
   font-weight: 700;
-  width: 161px;
-  height: 153px;
+}
+@media screen and (max-width: 576px) {
+  #about h1 {
+    font-size: 30px;
+  }
+  #about h3 {
+    font-size: 24px;
+  }
+  #about .textbox h2 {
+    font-size: 26px;
+  }
+  #about .textbox h4 {
+    font-size: 22px;
+  }
+  #about .imgbox {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #about h1 {
+    font-size: 40px;
+  }
+  #about h3 {
+    font-size: 26px;
+  }
+  #about .textbox h2 {
+    font-size: 28px;
+  }
+  #about .textbox h4 {
+    font-size: 24px;
+  }
+  #about .imgbox {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #about .box1, #about .box3 {
+    flex-direction: row-reverse;
+  }
+  #about .textbox {
+    width: auto;
+    text-align: left;
+    padding-left: 15px;
+  }
+  #about .txtleft {
+    padding-left: 20px;
+  }
+  #about .txtright {
+    padding-right: 0;
+  }
+  #about .imgbox {
+    width: 90px;
+  }
+  #about .yellowbox {
+    display: flex;
+    justify-content: start;
+  }
+  #about .yellowbox .txt {
+    padding: 22px 26px;
+    font-size: x-small;
+  }
+}
+@media screen and (min-width: 768px) {
+  #about .imgbox {
+    margin: 0 -40px;
+  }
+  #about .txtright {
+    padding-right: 56px;
+  }
+  #about .txtleft {
+    padding-left: 56px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #about .imgbox {
+    margin: 0 -33px;
+  }
+  #about .txtright {
+    padding-right: 54px;
+  }
+  #about .txtleft {
+    padding-left: 54px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #about .imgbox {
+    margin: 0 -23px;
+  }
+  #about .txtright {
+    padding-right: 50px;
+  }
+  #about .txtleft {
+    padding-left: 50px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  #about .imgbox {
+    margin: 0 -8px;
+  }
+  #about .txtright {
+    padding-right: 40px;
+  }
+  #about .txtleft {
+    padding-left: 40px;
+  }
 }
 
 #team {
