@@ -1,45 +1,3 @@
-// #about
-//     h1
-//         font-size: 35px
-//         font-weight: 700
-//     h3
-//         color: #7b838a
-//         font-size: 28px
-//         margin: 20px 0 35px
-//     .textbox
-//         width: 41%
-//         h2
-//             font-weight: 700
-//             font-size: 29px
-//             margin: 12px 0
-//         h4
-//             font-size: 30px
-//             color: #72777c
-//             line-height: 1.6
-//     .txtright
-//         text-align: right
-//         margin-right: 50px
-//     .txtleft
-//         margin-left: 50px
-//     .imgbox
-//         border-radius: 50%
-//         border: 6px solid #e1e5e9
-//         width: 190px
-//         margin: 35px -4px
-//     .btnbox
-//         display: flex
-//         justify-content: center
-//         .btn
-//             border-radius: 50%
-//             border: 7px solid #e9ecef
-//             background-color: #ffc800
-//             padding: 16px 31px
-//             color: #fff
-//             font-size: 25px
-//             font-weight: 700
-//             width: 161px
-//             height: 153px
-
 #about
     padding: 100px 0
     h1
@@ -73,46 +31,36 @@
         display: flex
         justify-content: center
         .btn
-            border: 7px solid #e9ecef
-            border-radius: 50%
-            padding: 49px 55px
-            color: #fff
-            background-color: #ffc800
             font-size: 24px
             font-weight: 700
-    @media screen and ( max-width: 576px )
-        h1
-            font-size: 30px
-        h3
-            font-size: 24px
-        .textbox
-            h2
-                font-size: 26px
-            h4
-                font-size: 22px
+            color: #fff
+            background-color: #ffc800
+            padding: 28px 53px
+            border: 7px solid #e9ecef
+            border-radius: 50%
+
+    @media screen and ( max-width: 1400px )
         .imgbox
-            width: 150px
-    @media screen and ( max-width: 1000px )
-        h1
-            font-size: 40px
-        h3
-            font-size: 26px
-        .textbox
-            h2
-                font-size: 28px
-            h4
-                font-size: 24px
+            margin: 0 3px
+        .txtright
+            padding-right: 50px
+        .txtleft
+            padding-left: 50px
+    @media screen and ( max-width: 1200px )
         .imgbox
-            width: 180px
-    @media screen and ( max-width: 767px )
+            margin: 0 -11px
+    @media screen and ( max-width: 992px )
+        .imgbox
+            margin: 0 -33px
+    @media screen and ( max-width: 768px  )
         .box1,.box3
             flex-direction: row-reverse
         .textbox
             width: auto
             text-align: left
-            padding-left: 15px
+            padding-left: 65px
         .txtleft
-            padding-left: 20px
+            padding-left: 65px
         .txtright
             padding-right: 0
         .imgbox
@@ -121,33 +69,5 @@
             display: flex
             justify-content: start
             .btn
-                padding: 22px 26px
-                font-size: x-small
-    @media screen and ( min-width: 768px )
-        .imgbox
-            margin: 0 -40px
-        .txtright
-            padding-right: 56px
-        .txtleft
-            padding-left: 56px
-    @media screen and ( min-width: 992px )
-        .imgbox
-            margin: 0 -33px
-        .txtright
-            padding-right: 54px
-        .txtleft
-            padding-left: 54px
-    @media screen and ( min-width: 1200px )
-        .imgbox
-            margin: 0 -23px
-        .txtright
-            padding-right: 50px
-        .txtleft
-            padding-left: 50px
-    @media screen and ( min-width: 1400px )
-        .imgbox
-            margin: 0 -8px
-        .txtright
-            padding-right: 40px
-        .txtleft
-            padding-left: 40px
+                padding: 11px 30px
+                font-size: 10px
