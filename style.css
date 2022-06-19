@@ -281,59 +281,46 @@ header .box .icon {
   justify-content: center;
 }
 #about .btnbox .btn {
-  border: 7px solid #e9ecef;
-  border-radius: 50%;
-  padding: 49px 55px;
-  color: #fff;
-  background-color: #ffc800;
   font-size: 24px;
   font-weight: 700;
+  color: #fff;
+  background-color: #ffc800;
+  padding: 28px 53px;
+  border: 7px solid #e9ecef;
+  border-radius: 50%;
 }
-@media screen and (max-width: 576px) {
-  #about h1 {
-    font-size: 30px;
-  }
-  #about h3 {
-    font-size: 24px;
-  }
-  #about .textbox h2 {
-    font-size: 26px;
-  }
-  #about .textbox h4 {
-    font-size: 22px;
-  }
+@media screen and (max-width: 1400px) {
   #about .imgbox {
-    width: 150px;
+    margin: 0 3px;
+  }
+  #about .txtright {
+    padding-right: 50px;
+  }
+  #about .txtleft {
+    padding-left: 50px;
   }
 }
-@media screen and (max-width: 1000px) {
-  #about h1 {
-    font-size: 40px;
-  }
-  #about h3 {
-    font-size: 26px;
-  }
-  #about .textbox h2 {
-    font-size: 28px;
-  }
-  #about .textbox h4 {
-    font-size: 24px;
-  }
+@media screen and (max-width: 1200px) {
   #about .imgbox {
-    width: 180px;
+    margin: 0 -11px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
+  #about .imgbox {
+    margin: 0 -33px;
+  }
+}
+@media screen and (max-width: 768px) {
   #about .box1, #about .box3 {
     flex-direction: row-reverse;
   }
   #about .textbox {
     width: auto;
     text-align: left;
-    padding-left: 15px;
+    padding-left: 65px;
   }
   #about .txtleft {
-    padding-left: 20px;
+    padding-left: 65px;
   }
   #about .txtright {
     padding-right: 0;
@@ -346,52 +333,8 @@ header .box .icon {
     justify-content: start;
   }
   #about .btnbox .btn {
-    padding: 22px 26px;
-    font-size: x-small;
-  }
-}
-@media screen and (min-width: 768px) {
-  #about .imgbox {
-    margin: 0 -40px;
-  }
-  #about .txtright {
-    padding-right: 56px;
-  }
-  #about .txtleft {
-    padding-left: 56px;
-  }
-}
-@media screen and (min-width: 992px) {
-  #about .imgbox {
-    margin: 0 -33px;
-  }
-  #about .txtright {
-    padding-right: 54px;
-  }
-  #about .txtleft {
-    padding-left: 54px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  #about .imgbox {
-    margin: 0 -23px;
-  }
-  #about .txtright {
-    padding-right: 50px;
-  }
-  #about .txtleft {
-    padding-left: 50px;
-  }
-}
-@media screen and (min-width: 1400px) {
-  #about .imgbox {
-    margin: 0 -8px;
-  }
-  #about .txtright {
-    padding-right: 40px;
-  }
-  #about .txtleft {
-    padding-left: 40px;
+    padding: 11px 30px;
+    font-size: 10px;
   }
 }
 
