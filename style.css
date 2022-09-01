@@ -228,13 +228,13 @@ header .box .icon {
 }
 @media screen and (max-width: 768px) {
   #portfolio h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
   #portfolio .textbox h2 {
-    font-size: 25px;
+    font-size: 30px;
   }
   #portfolio .textbox h3 {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
@@ -333,8 +333,8 @@ header .box .icon {
     justify-content: start;
   }
   #about .btnbox .btn {
-    padding: 11px 30px;
-    font-size: 10px;
+    padding: 17px 30px;
+    font-size: 14px;
   }
 }
 
@@ -505,6 +505,23 @@ header .box .icon {
   #contact textarea {
     width: 95%;
     margin-left: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #contact .add input {
+    margin-left: 41px;
+    width: 80%;
+  }
+  #contact textarea {
+    width: 80%;
+    margin-left: 42px;
+  }
+  #contact .btn {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 29px;
+    padding: 13px 22px;
+    opacity: 0.6;
   }
 }
 
