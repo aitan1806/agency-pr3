@@ -337,6 +337,11 @@ header .box .icon {
     font-size: 14px;
   }
 }
+@media screen and (max-width: 577px) {
+  #about .imgbox {
+    margin: 48px 0 0 25px;
+  }
+}
 
 #team {
   background-color: #e1e9e9;
