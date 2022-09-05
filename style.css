@@ -339,7 +339,7 @@ header .box .icon {
 }
 @media screen and (max-width: 577px) {
   #about .imgbox {
-    margin: 48px 0 0 26px;
+    margin-left: 26px;
   }
 }
 
