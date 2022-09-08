@@ -150,6 +150,7 @@ header .box .icon {
   color: #fff;
   margin: 0 auto;
   height: 99px;
+  width: 99px;
   display: flex;
   justify-content: center;
   align-items: center;
