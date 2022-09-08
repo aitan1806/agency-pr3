@@ -290,9 +290,13 @@ header .box .icon {
   font-weight: 700;
   color: #fff;
   background-color: #ffc800;
-  padding: 28px 53px;
   border: 7px solid #e9ecef;
   border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 1400px) {
   #about .imgbox {
@@ -387,11 +391,14 @@ header .box .icon {
 }
 #team ul li {
   color: #fff;
-  background-color: #262a2e;
   border-radius: 52%;
   background-color: rgba(2, 2, 2, 0.8980392157);
-  margin: 26px 13px;
-  padding: 16px 19px;
+  margin: 18px 11px 43px 10px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #team li:hover, #team i:hover {
   cursor: pointer;
@@ -549,13 +556,20 @@ footer ul {
   justify-content: center;
 }
 footer ul li {
-  margin: 10px;
   background-color: #000;
   color: #fff;
   border-radius: 50%;
-  padding: 13px 15px 12px 17px;
+  height: 30px;
+  width: 30px;
+  margin: 13px 0 19px 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-footer ul li i:hover {
+footer ul li .icon {
+  font-size: 10px;
+}
+footer ul li .icon i:hover {
   cursor: pointer;
 }
 footer h2, footer h3 {
